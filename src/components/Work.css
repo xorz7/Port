@@ -1,0 +1,49 @@
+/* Work.css */
+.work {
+    padding: 20px 0;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .work h2 {
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .work-cards::-webkit-scrollbar {
+    height: 8px;             /* Ensures scrollbar is visible in Chrome and Safari */
+  }
+  
+  .work-cards::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .work-cards > * {
+    flex: 0 0 auto;
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ /* Work.css */
+.work-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;      /* Enable scrolling */
+    white-space: nowrap;
+    padding-bottom: 10px;
+    max-width: 100%;
+    scroll-behavior: auto; /* Enables smooth scrolling */
+  
+    /* Hide scrollbar in Webkit browsers (Chrome, Safari, etc.) */
+    -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer and Edge */
+    scrollbar-width: none;    /* Hides scrollbar in Firefox */
+  }
+  
+  .work-cards::-webkit-scrollbar {
+    display: none;           /* Hides scrollbar in Chrome and Safari */
+  }
+  

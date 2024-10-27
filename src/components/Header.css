@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space out elements horizontally */
+    align-items: center;            /* Vertically align items to the center */
+    width: 76%;
+    padding: 20px;
+    margin-bottom: 120px; /* Adds space below the header */
+    margin-top: 40px;
+  }
+  
+  .header h1 {
+    margin: 0; /* Remove default margin to align better */
+    font-size: 1.5rem; /* Adjust size as needed */
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 20px; /* Add space between links */
+    margin-right: 110px;
+    margin-top: 28px;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem; /* Adjust font size if needed */
+  }
+  
