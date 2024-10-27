@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/xorz7/Port/static/css/main.71616c5d.css",
+    "main.js": "/xorz7/Port/static/js/main.b0b3054a.js",
+    "index.html": "/xorz7/Port/index.html",
+    "main.71616c5d.css.map": "/xorz7/Port/static/css/main.71616c5d.css.map",
+    "main.b0b3054a.js.map": "/xorz7/Port/static/js/main.b0b3054a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71616c5d.css",
+    "static/js/main.b0b3054a.js"
+  ]
+}
